@@ -1,0 +1,91 @@
+
+/*GLOBALES*/
+
+:root{
+    --fuentePrincipal: 'Staatliches', cursive;
+    --colorGris: darkgrey;
+}
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: black !important; 
+    color: white !important; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+    margin-bottom: 20px !important;
+}    
+
+
+h1, h2{
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    margin: 20px !important;
+}
+a{
+    font-family: var(--fuentePrincipal);
+    color:  black;
+    font-size: 1.5rem !important;   
+}
+
+h1{
+    font-size: 3.5em !important;
+}
+
+h2{
+    font-size: 2.5em !important;
+}
+
+.title{
+    color: var(--colorGris);
+}
+
+.container-fluid {    
+    padding: 0 !important; 
+}
+
+.navbar{
+    background-color: var(--colorGris) !important;
+    color: #1a1a1a !important;
+}
+
+
+/* Estilo para las tarjetas */
+.card {
+    border: 5px solid darkgray !important; 
+    background-color: #1a1a1a !important; 
+    border-radius: 0px !important;
+}
+
+.card-img-top{
+    border-radius: 0px !important;
+}
+
+/* Estilo para el texto dentro de las tarjetas */
+.card-title, .card-text {
+    color: white !important; 
+}
+
+.card-nosotros{
+    border: none !important;
+    background-color: black !important;
+}
+
+/*Estilo para el modal, para dispositivos pequeños*/
+.modal-content {
+    width: 100%;
+    max-width: none; 
+  }
+  
+  @media (max-width: 576px) {
+    .modal-dialog {
+      margin: 1rem; 
+    }
+    .modal-content {
+      padding: 10px; 
+    }
+  }
+  
